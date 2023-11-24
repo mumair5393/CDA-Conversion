@@ -15,7 +15,7 @@ source cda_conv/bin/activate
 
 ## Run the following command to install the required packages in the virtual environment
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## Run the following command to generate samples for the cda spectra
