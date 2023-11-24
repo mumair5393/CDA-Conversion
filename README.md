@@ -1,4 +1,19 @@
-## Run the following command to install the required packages
+## Clone the repository
+```
+git clone https://github.com/mumair5393/CDA-Conversion.git
+```
+
+## Create python3 virtual environment
+```
+python3 -m venv cda_conv
+```
+
+## Activate python3 virtual environment
+```
+source cda_conv/bin/activate 
+```
+
+## Run the following command to install the required packages in the virtual environment
 ```
 pip install -r requirements.txt
 ```
