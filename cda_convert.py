@@ -83,7 +83,7 @@ def gen_plot(t, converted_cda, filename):
     fig, ax = plt.subplots(figsize=(18, 18))
     ax.set_yscale('log')
     ax.set_title('Spectrum')
-    ax.set_xlabel('Mass')
+    ax.set_xlabel('Time (microseconds)')
     ax.set_ylabel('Amplitude (V)')
     ax.plot(t, converted_cda)
     plt.savefig(filename)
@@ -115,7 +115,7 @@ def main():
             os.makedirs(coverted_data_dir)
         data = baseline_correction(raw_data)
         peaks, peak_indices, local_percentile = detectPeaks(data)
-        file_metadata = open(os.path.join(coverted_data_dir, f"{file_name}_conversion_metadata.txt"), "w")
+        file_metadata = open(os.path.join(coverted_data_dir, f"conversion_metadata.txt"), "w")
         for n in range(number_of_samples):
             file_metadata.write("{}_conversion_sample{}\n".format(file_name, n))
             stretch_parameter = 0.475
