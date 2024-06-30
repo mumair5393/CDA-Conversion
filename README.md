@@ -13,11 +13,6 @@ cd CDA-Conversion
 python3 -m venv cda_conv
 ```
 
-## Activate the virtual env
-```
-source cda_conv/bin/activate
-```
-
 ## Activate python3 virtual environment
 ```
 source cda_conv/bin/activate 
