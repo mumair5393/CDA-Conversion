@@ -3,9 +3,19 @@
 git clone https://github.com/mumair5393/CDA-Conversion.git
 ```
 
+## Go into the cloned directory
+```
+cd CDA-Conversion
+```
+
 ## Create python3 virtual environment
 ```
 python3 -m venv cda_conv
+```
+
+## Activate the virtual env
+```
+source cda_conv/bin/activate
 ```
 
 ## Activate python3 virtual environment
